@@ -104,8 +104,9 @@ def main():
         delta_days = get_timedelta(args.end_date, args.start_date)
         day = args.start_date
 
-        for _ in trange(delta_days, desc="Grabbing FXs", unit="FXs/day"):
-            day = update_date(day)
+        for i in trange(delta_days, desc="Grabbing FXs", unit="FXs/day"):
+            if i > 0:
+                day = update_date(day)
             raw = get_raw(insert_date(URL, day))
             new_data = convert_to_json_structure(raw)
             loaded_data = open_json()
