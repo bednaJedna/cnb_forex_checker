@@ -1,10 +1,13 @@
 import argparse
 import json
 import re
+from datetime import datetime, timedelta
 from os.path import isfile
+from random import randrange
+from time import sleep
 
 from requests import get
-from tqdm import tqdm
+from tqdm import trange
 
 URL = "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date={DATE}"
 
@@ -57,10 +60,28 @@ def open_json():
 def get_date():
     parser = argparse.ArgumentParser(description="Parse date.")
     parser.add_argument(
-        "date", action="store", type=str, help="date in format 'dd.mm.yyyy'."
+        "start_date", action="store", type=str, help="date in format 'dd.mm.yyyy'."
+    )
+    parser.add_argument(
+        "end_date", action="store", type=str, help="date in format 'dd.mm.yyyy'."
     )
     args = parser.parse_args()
     return args
+
+
+# see https://stackoverflow.com/questions/1345827/how-do-i-find-the-time-difference-between-two-datetime-objects-in-python
+def get_timedelta(end_date: str, start_date: str):
+    edate = datetime.strptime(end_date, "%d.%m.%Y")
+    sdate = datetime.strptime(start_date, "%d.%m.%Y")
+    diff = edate - sdate
+    return diff.days
+
+
+def update_date(old_date: str):
+    odate = datetime.strptime(old_date, "%d.%m.%Y")
+    tdelta = timedelta(days=1)
+    ndate = odate + tdelta
+    return ndate.strftime("%d.%m.%Y")
 
 
 def get_raw(link: str):
@@ -72,20 +93,26 @@ def parse_date(firstline: str):
     return re.findall(regex, firstline)[0]
 
 
-def insert_dates(link: str, date: str):
+def insert_date(link: str, date: str):
     return link.replace("{DATE}", date)
 
 
 def main():
-    raw = get_raw(insert_dates(URL, args.date))
-    new_data = convert_to_json_structure(raw)
-    loaded_data = open_json()
-    updated_data = add_data_to_json(loaded_data, new_data)
-    save_as_json(updated_data)
+    args = get_date()
+
+    if args.start_date and args.end_date:
+        delta_days = get_timedelta(args.end_date, args.start_date)
+        day = args.start_date
+
+        for _ in trange(delta_days, desc="Grabbing FXs", unit="FXs/day"):
+            day = update_date(day)
+            raw = get_raw(insert_date(URL, day))
+            new_data = convert_to_json_structure(raw)
+            loaded_data = open_json()
+            updated_data = add_data_to_json(loaded_data, new_data)
+            save_as_json(updated_data)
+            sleep(randrange(5, 10, 1))
 
 
 if __name__ == "__main__":
-    args = get_date()
-
-    if args.date:
-        main()
+    main()
