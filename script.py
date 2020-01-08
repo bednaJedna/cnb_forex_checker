@@ -4,8 +4,9 @@ import re
 from os.path import isfile
 
 from requests import get
+from tqdm import tqdm
 
-URL = "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date={DAY}.{MONTH}.{YEAR}"
+URL = "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date={DATE}"
 
 
 def convert_to_json_structure(raw_day_data: str):
@@ -55,9 +56,9 @@ def open_json():
 
 def get_date():
     parser = argparse.ArgumentParser(description="Parse date.")
-    parser.add_argument("day", action="store", type=str, help="day in format 'dd'.")
-    parser.add_argument("month", action="store", type=str, help="month in format 'mm'.")
-    parser.add_argument("year", action="store", type=str, help="year in format 'yyyy'.")
+    parser.add_argument(
+        "date", action="store", type=str, help="date in format 'dd.mm.yyyy'."
+    )
     args = parser.parse_args()
     return args
 
@@ -71,12 +72,12 @@ def parse_date(firstline: str):
     return re.findall(regex, firstline)[0]
 
 
-def insert_dates(link: str, day: str, month: str, year: str):
-    return link.replace("{DAY}", day).replace("{MONTH}", month).replace("{YEAR}", year)
+def insert_dates(link: str, date: str):
+    return link.replace("{DATE}", date)
 
 
 def main():
-    raw = get_raw(insert_dates(URL, args.day, args.month, args.year))
+    raw = get_raw(insert_dates(URL, args.date))
     new_data = convert_to_json_structure(raw)
     loaded_data = open_json()
     updated_data = add_data_to_json(loaded_data, new_data)
@@ -86,5 +87,5 @@ def main():
 if __name__ == "__main__":
     args = get_date()
 
-    if args.day and args.month and args.year:
+    if args.date:
         main()
