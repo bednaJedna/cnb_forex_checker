@@ -97,14 +97,18 @@ def insert_date(link: str, date: str):
     return link.replace("{DATE}", date)
 
 
+def just_chill(min: int, max: int, step: int):
+    sleep(randrange(min, max, step))
+
+
 def main():
     args = get_date()
 
     if args.start_date and args.end_date:
-        delta_days = get_timedelta(args.end_date, args.start_date)
+        days = get_timedelta(args.end_date, args.start_date) + 1
         day = args.start_date
 
-        for i in trange(delta_days, desc="Grabbing FXs", unit="FXs/day"):
+        for i in trange(days, desc="Grabbing FXs", unit="day"):
             if i > 0:
                 day = update_date(day)
             raw = get_raw(insert_date(URL, day))
@@ -112,7 +116,7 @@ def main():
             loaded_data = open_json()
             updated_data = add_data_to_json(loaded_data, new_data)
             save_as_json(updated_data)
-            sleep(randrange(5, 10, 1))
+            just_chill(3, 6, 1)
 
 
 if __name__ == "__main__":

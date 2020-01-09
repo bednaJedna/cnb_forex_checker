@@ -1,500 +1,100 @@
 {
-  "31.12.2019": {
+  "13.12.2019": {
     "Austrálie": {
       "měna": "dolar",
       "množství": "1",
       "kód": "AUD",
-      "kurz": "15,885"
+      "kurz": "15,789"
     },
     "Brazílie": {
       "měna": "real",
       "množství": "1",
       "kód": "BRL",
-      "kurz": "5,628"
+      "kurz": "5,586"
     },
     "Bulharsko": {
       "měna": "lev",
       "množství": "1",
       "kód": "BGN",
-      "kurz": "12,992"
+      "kurz": "13,041"
     },
     "Čína": {
       "měna": "žen-min-pi",
       "množství": "1",
       "kód": "CNY",
-      "kurz": "3,250"
+      "kurz": "3,277"
     },
     "Dánsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "DKK",
-      "kurz": "3,401"
-    },
-    "EMU": {
-      "měna": "euro",
-      "množství": "1",
-      "kód": "EUR",
-      "kurz": "25,410"
-    },
-    "Filipíny": {
-      "měna": "peso",
-      "množství": "100",
-      "kód": "PHP",
-      "kurz": "44,661"
-    },
-    "Hongkong": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "HKD",
-      "kurz": "2,905"
-    },
-    "Chorvatsko": {
-      "měna": "kuna",
-      "množství": "1",
-      "kód": "HRK",
       "kurz": "3,414"
     },
-    "Indie": {
-      "měna": "rupie",
-      "množství": "100",
-      "kód": "INR",
-      "kurz": "31,689"
-    },
-    "Indonesie": {
-      "měna": "rupie",
-      "množství": "1000",
-      "kód": "IDR",
-      "kurz": "1,629"
-    },
-    "Island": {
-      "měna": "koruna",
-      "množství": "100",
-      "kód": "ISK",
-      "kurz": "18,711"
-    },
-    "Izrael": {
-      "měna": "nový šekel",
-      "množství": "1",
-      "kód": "ILS",
-      "kurz": "6,541"
-    },
-    "Japonsko": {
-      "měna": "jen",
-      "množství": "100",
-      "kód": "JPY",
-      "kurz": "20,844"
-    },
-    "Jižní Afrika": {
-      "měna": "rand",
-      "množství": "1",
-      "kód": "ZAR",
-      "kurz": "1,611"
-    },
-    "Kanada": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "CAD",
-      "kurz": "17,413"
-    },
-    "Korejská republika": {
-      "měna": "won",
-      "množství": "100",
-      "kód": "KRW",
-      "kurz": "1,960"
-    },
-    "Maďarsko": {
-      "měna": "forint",
-      "množství": "100",
-      "kód": "HUF",
-      "kurz": "7,688"
-    },
-    "Malajsie": {
-      "měna": "ringgit",
-      "množství": "1",
-      "kód": "MYR",
-      "kurz": "5,530"
-    },
-    "Mexiko": {
-      "měna": "peso",
-      "množství": "1",
-      "kód": "MXN",
-      "kurz": "1,197"
-    },
-    "MMF": {
-      "měna": "ZPČ",
-      "množství": "1",
-      "kód": "XDR",
-      "kurz": "31,281"
-    },
-    "Norsko": {
-      "měna": "koruna",
-      "množství": "1",
-      "kód": "NOK",
-      "kurz": "2,576"
-    },
-    "Nový Zéland": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "NZD",
-      "kurz": "15,259"
-    },
-    "Polsko": {
-      "měna": "zlotý",
-      "množství": "1",
-      "kód": "PLN",
-      "kurz": "5,970"
-    },
-    "Rumunsko": {
-      "měna": "leu",
-      "množství": "1",
-      "kód": "RON",
-      "kurz": "5,313"
-    },
-    "Rusko": {
-      "měna": "rubl",
-      "množství": "100",
-      "kód": "RUB",
-      "kurz": "36,323"
-    },
-    "Singapur": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "SGD",
-      "kurz": "16,817"
-    },
-    "Švédsko": {
-      "měna": "koruna",
-      "množství": "1",
-      "kód": "SEK",
-      "kurz": "2,432"
-    },
-    "Švýcarsko": {
-      "měna": "frank",
-      "množství": "1",
-      "kód": "CHF",
-      "kurz": "23,416"
-    },
-    "Thajsko": {
-      "měna": "baht",
-      "množství": "100",
-      "kód": "THB",
-      "kurz": "76,042"
-    },
-    "Turecko": {
-      "měna": "lira",
-      "množství": "1",
-      "kód": "TRY",
-      "kurz": "3,805"
-    },
-    "USA": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "USD",
-      "kurz": "22,621"
-    },
-    "Velká Británie": {
-      "měna": "libra",
-      "množství": "1",
-      "kód": "GBP",
-      "kurz": "29,866"
-    }
-  },
-  "02.01.2020": {
-    "Austrálie": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "AUD",
-      "kurz": "15,873"
-    },
-    "Brazílie": {
-      "měna": "real",
-      "množství": "1",
-      "kód": "BRL",
-      "kurz": "5,664"
-    },
-    "Bulharsko": {
-      "měna": "lev",
-      "množství": "1",
-      "kód": "BGN",
-      "kurz": "12,991"
-    },
-    "Čína": {
-      "měna": "žen-min-pi",
-      "množství": "1",
-      "kód": "CNY",
-      "kurz": "3,260"
-    },
-    "Dánsko": {
-      "měna": "koruna",
-      "množství": "1",
-      "kód": "DKK",
-      "kurz": "3,401"
-    },
     "EMU": {
       "měna": "euro",
       "množství": "1",
       "kód": "EUR",
-      "kurz": "25,410"
+      "kurz": "25,510"
     },
     "Filipíny": {
       "měna": "peso",
       "množství": "100",
       "kód": "PHP",
-      "kurz": "44,697"
+      "kurz": "45,200"
     },
     "Hongkong": {
       "měna": "dolar",
       "množství": "1",
       "kód": "HKD",
-      "kurz": "2,914"
+      "kurz": "2,930"
     },
     "Chorvatsko": {
       "měna": "kuna",
       "množství": "1",
       "kód": "HRK",
-      "kurz": "3,413"
+      "kurz": "3,429"
     },
     "Indie": {
       "měna": "rupie",
       "množství": "100",
       "kód": "INR",
-      "kurz": "31,795"
+      "kurz": "32,266"
     },
     "Indonesie": {
       "měna": "rupie",
       "množství": "1000",
       "kód": "IDR",
-      "kurz": "1,635"
+      "kurz": "1,633"
     },
     "Island": {
       "měna": "koruna",
       "množství": "100",
       "kód": "ISK",
-      "kurz": "18,561"
+      "kurz": "18,620"
     },
     "Izrael": {
       "měna": "nový šekel",
       "množství": "1",
       "kód": "ILS",
-      "kurz": "6,567"
+      "kurz": "6,561"
     },
     "Japonsko": {
       "měna": "jen",
       "množství": "100",
       "kód": "JPY",
-      "kurz": "20,870"
+      "kurz": "20,836"
     },
     "Jižní Afrika": {
       "měna": "rand",
       "množství": "1",
       "kód": "ZAR",
-      "kurz": "1,613"
+      "kurz": "1,581"
     },
     "Kanada": {
       "měna": "dolar",
       "množství": "1",
       "kód": "CAD",
-      "kurz": "17,461"
-    },
-    "Korejská republika": {
-      "měna": "won",
-      "množství": "100",
-      "kód": "KRW",
-      "kurz": "1,957"
-    },
-    "Maďarsko": {
-      "měna": "forint",
-      "množství": "100",
-      "kód": "HUF",
-      "kurz": "7,701"
-    },
-    "Malajsie": {
-      "měna": "ringgit",
-      "množství": "1",
-      "kód": "MYR",
-      "kurz": "5,554"
-    },
-    "Mexiko": {
-      "měna": "peso",
-      "množství": "1",
-      "kód": "MXN",
-      "kurz": "1,202"
-    },
-    "MMF": {
-      "měna": "ZPČ",
-      "množství": "1",
-      "kód": "XDR",
-      "kurz": "31,393"
-    },
-    "Norsko": {
-      "měna": "koruna",
-      "množství": "1",
-      "kód": "NOK",
-      "kurz": "2,582"
-    },
-    "Nový Zéland": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "NZD",
-      "kurz": "15,198"
-    },
-    "Polsko": {
-      "měna": "zlotý",
-      "množství": "1",
-      "kód": "PLN",
-      "kurz": "5,972"
-    },
-    "Rumunsko": {
-      "měna": "leu",
-      "množství": "1",
-      "kód": "RON",
-      "kurz": "5,314"
-    },
-    "Rusko": {
-      "měna": "rubl",
-      "množství": "100",
-      "kód": "RUB",
-      "kurz": "36,716"
-    },
-    "Singapur": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "SGD",
-      "kurz": "16,845"
-    },
-    "Švédsko": {
-      "měna": "koruna",
-      "množství": "1",
-      "kód": "SEK",
-      "kurz": "2,426"
-    },
-    "Švýcarsko": {
-      "měna": "frank",
-      "množství": "1",
-      "kód": "CHF",
-      "kurz": "23,388"
-    },
-    "Thajsko": {
-      "měna": "baht",
-      "množství": "100",
-      "kód": "THB",
-      "kurz": "75,296"
-    },
-    "Turecko": {
-      "měna": "lira",
-      "množství": "1",
-      "kód": "TRY",
-      "kurz": "3,810"
-    },
-    "USA": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "USD",
-      "kurz": "22,702"
-    },
-    "Velká Británie": {
-      "měna": "libra",
-      "množství": "1",
-      "kód": "GBP",
-      "kurz": "29,955"
-    }
-  },
-  "03.01.2020": {
-    "Austrálie": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "AUD",
-      "kurz": "15,821"
-    },
-    "Brazílie": {
-      "měna": "real",
-      "množství": "1",
-      "kód": "BRL",
-      "kurz": "5,599"
-    },
-    "Bulharsko": {
-      "měna": "lev",
-      "množství": "1",
-      "kód": "BGN",
-      "kurz": "12,968"
-    },
-    "Čína": {
-      "měna": "žen-min-pi",
-      "množství": "1",
-      "kód": "CNY",
-      "kurz": "3,264"
-    },
-    "Dánsko": {
-      "měna": "koruna",
-      "množství": "1",
-      "kód": "DKK",
-      "kurz": "3,393"
-    },
-    "EMU": {
-      "měna": "euro",
-      "množství": "1",
-      "kód": "EUR",
-      "kurz": "25,360"
-    },
-    "Filipíny": {
-      "měna": "peso",
-      "množství": "100",
-      "kód": "PHP",
-      "kurz": "44,508"
-    },
-    "Hongkong": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "HKD",
-      "kurz": "2,925"
-    },
-    "Chorvatsko": {
-      "měna": "kuna",
-      "množství": "1",
-      "kód": "HRK",
-      "kurz": "3,406"
-    },
-    "Indie": {
-      "měna": "rupie",
-      "množství": "100",
-      "kód": "INR",
-      "kurz": "31,699"
-    },
-    "Indonesie": {
-      "měna": "rupie",
-      "množství": "1000",
-      "kód": "IDR",
-      "kurz": "1,634"
-    },
-    "Island": {
-      "měna": "koruna",
-      "množství": "100",
-      "kód": "ISK",
-      "kurz": "18,524"
-    },
-    "Izrael": {
-      "měna": "nový šekel",
-      "množství": "1",
-      "kód": "ILS",
-      "kurz": "6,542"
-    },
-    "Japonsko": {
-      "měna": "jen",
-      "množství": "100",
-      "kód": "JPY",
-      "kurz": "21,039"
-    },
-    "Jižní Afrika": {
-      "měna": "rand",
-      "množství": "1",
-      "kód": "ZAR",
-      "kurz": "1,593"
-    },
-    "Kanada": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "CAD",
-      "kurz": "17,530"
+      "kurz": "17,345"
     },
     "Korejská republika": {
       "měna": "won",
@@ -506,497 +106,1097 @@
       "měna": "forint",
       "množství": "100",
       "kód": "HUF",
-      "kurz": "7,673"
+      "kurz": "7,758"
     },
     "Malajsie": {
       "měna": "ringgit",
       "množství": "1",
       "kód": "MYR",
-      "kurz": "5,547"
+      "kurz": "5,522"
     },
     "Mexiko": {
       "měna": "peso",
       "množství": "1",
       "kód": "MXN",
-      "kurz": "1,199"
+      "kurz": "1,200"
     },
     "MMF": {
       "měna": "ZPČ",
       "množství": "1",
       "kód": "XDR",
-      "kurz": "31,490"
+      "kurz": "31,517"
     },
     "Norsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "NOK",
-      "kurz": "2,579"
+      "kurz": "2,535"
     },
     "Nový Zéland": {
       "měna": "dolar",
       "množství": "1",
       "kód": "NZD",
-      "kurz": "15,169"
+      "kurz": "15,120"
     },
     "Polsko": {
       "měna": "zlotý",
       "množství": "1",
       "kód": "PLN",
-      "kurz": "5,968"
+      "kurz": "5,971"
     },
     "Rumunsko": {
       "měna": "leu",
       "množství": "1",
       "kód": "RON",
-      "kurz": "5,306"
+      "kurz": "5,337"
     },
     "Rusko": {
       "měna": "rubl",
       "množství": "100",
       "kód": "RUB",
-      "kurz": "36,690"
+      "kurz": "36,450"
     },
     "Singapur": {
       "měna": "dolar",
       "množství": "1",
       "kód": "SGD",
-      "kurz": "16,857"
+      "kurz": "16,889"
     },
     "Švédsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "SEK",
-      "kurz": "2,418"
+      "kurz": "2,441"
     },
     "Švýcarsko": {
       "měna": "frank",
       "množství": "1",
       "kód": "CHF",
-      "kurz": "23,396"
+      "kurz": "23,230"
     },
     "Thajsko": {
       "měna": "baht",
       "množství": "100",
       "kód": "THB",
-      "kurz": "75,452"
+      "kurz": "75,631"
     },
     "Turecko": {
       "měna": "lira",
       "množství": "1",
       "kód": "TRY",
-      "kurz": "3,809"
+      "kurz": "3,938"
     },
     "USA": {
       "měna": "dolar",
       "množství": "1",
       "kód": "USD",
-      "kurz": "22,753"
+      "kurz": "22,831"
     },
     "Velká Británie": {
       "měna": "libra",
       "množství": "1",
       "kód": "GBP",
-      "kurz": "29,797"
+      "kurz": "30,550"
     }
   },
-  "06.01.2020": {
+  "16.12.2019": {
     "Austrálie": {
       "měna": "dolar",
       "množství": "1",
       "kód": "AUD",
-      "kurz": "15,696"
+      "kurz": "15,755"
     },
     "Brazílie": {
       "měna": "real",
       "množství": "1",
       "kód": "BRL",
-      "kurz": "5,566"
+      "kurz": "5,601"
     },
     "Bulharsko": {
       "měna": "lev",
       "množství": "1",
       "kód": "BGN",
-      "kurz": "12,935"
+      "kurz": "13,030"
     },
     "Čína": {
       "měna": "žen-min-pi",
       "množství": "1",
       "kód": "CNY",
-      "kurz": "3,243"
+      "kurz": "3,266"
     },
     "Dánsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "DKK",
-      "kurz": "3,385"
+      "kurz": "3,410"
     },
     "EMU": {
       "měna": "euro",
       "množství": "1",
       "kód": "EUR",
-      "kurz": "25,300"
+      "kurz": "25,485"
     },
     "Filipíny": {
       "měna": "peso",
       "množství": "100",
       "kód": "PHP",
-      "kurz": "44,194"
+      "kurz": "45,165"
     },
     "Hongkong": {
       "měna": "dolar",
       "množství": "1",
       "kód": "HKD",
-      "kurz": "2,909"
+      "kurz": "2,934"
     },
     "Chorvatsko": {
       "měna": "kuna",
       "množství": "1",
       "kód": "HRK",
-      "kurz": "3,387"
+      "kurz": "3,424"
     },
     "Indie": {
       "měna": "rupie",
       "množství": "100",
       "kód": "INR",
-      "kurz": "31,426"
+      "kurz": "32,218"
     },
     "Indonesie": {
       "měna": "rupie",
       "množství": "1000",
       "kód": "IDR",
-      "kurz": "1,621"
+      "kurz": "1,632"
     },
     "Island": {
       "měna": "koruna",
       "množství": "100",
       "kód": "ISK",
-      "kurz": "18,427"
+      "kurz": "18,629"
     },
     "Izrael": {
       "měna": "nový šekel",
       "množství": "1",
       "kód": "ILS",
-      "kurz": "6,501"
+      "kurz": "6,548"
     },
     "Japonsko": {
       "měna": "jen",
       "množství": "100",
       "kód": "JPY",
-      "kurz": "20,910"
+      "kurz": "20,893"
     },
     "Jižní Afrika": {
       "měna": "rand",
       "množství": "1",
       "kód": "ZAR",
-      "kurz": "1,586"
+      "kurz": "1,580"
     },
     "Kanada": {
       "měna": "dolar",
       "množství": "1",
       "kód": "CAD",
-      "kurz": "17,413"
+      "kurz": "17,430"
     },
     "Korejská republika": {
       "měna": "won",
       "množství": "100",
       "kód": "KRW",
-      "kurz": "1,933"
+      "kurz": "1,953"
     },
     "Maďarsko": {
       "měna": "forint",
       "množství": "100",
       "kód": "HUF",
-      "kurz": "7,675"
+      "kurz": "7,747"
     },
     "Malajsie": {
       "měna": "ringgit",
       "množství": "1",
       "kód": "MYR",
-      "kurz": "5,507"
+      "kurz": "5,520"
     },
     "Mexiko": {
       "měna": "peso",
       "množství": "1",
       "kód": "MXN",
-      "kurz": "1,197"
+      "kurz": "1,202"
     },
     "MMF": {
       "měna": "ZPČ",
       "množství": "1",
       "kód": "XDR",
-      "kurz": "31,219"
+      "kurz": "31,644"
     },
     "Norsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "NOK",
-      "kurz": "2,569"
+      "kurz": "2,542"
     },
     "Nový Zéland": {
       "měna": "dolar",
       "množství": "1",
       "kód": "NZD",
-      "kurz": "15,071"
+      "kurz": "15,117"
     },
     "Polsko": {
       "měna": "zlotý",
       "množství": "1",
       "kód": "PLN",
-      "kurz": "5,965"
+      "kurz": "5,975"
     },
     "Rumunsko": {
       "měna": "leu",
       "množství": "1",
       "kód": "RON",
-      "kurz": "5,299"
+      "kurz": "5,333"
     },
     "Rusko": {
       "měna": "rubl",
       "množství": "100",
       "kód": "RUB",
-      "kurz": "36,452"
+      "kurz": "36,492"
     },
     "Singapur": {
       "měna": "dolar",
       "množství": "1",
       "kód": "SGD",
-      "kurz": "16,744"
+      "kurz": "16,881"
     },
     "Švédsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "SEK",
-      "kurz": "2,402"
+      "kurz": "2,447"
     },
     "Švýcarsko": {
       "měna": "frank",
       "množství": "1",
       "kód": "CHF",
-      "kurz": "23,317"
+      "kurz": "23,268"
     },
     "Thajsko": {
       "měna": "baht",
       "množství": "100",
       "kód": "THB",
-      "kurz": "74,963"
+      "kurz": "75,654"
     },
     "Turecko": {
       "měna": "lira",
       "množství": "1",
       "kód": "TRY",
-      "kurz": "3,782"
+      "kurz": "3,908"
     },
     "USA": {
       "měna": "dolar",
       "množství": "1",
       "kód": "USD",
-      "kurz": "22,601"
+      "kurz": "22,863"
     },
     "Velká Británie": {
       "měna": "libra",
       "množství": "1",
       "kód": "GBP",
-      "kurz": "29,687"
+      "kurz": "30,554"
     }
   },
-  "07.01.2020": {
+  "17.12.2019": {
     "Austrálie": {
       "měna": "dolar",
       "množství": "1",
       "kód": "AUD",
-      "kurz": "15,553"
+      "kurz": "15,620"
     },
     "Brazílie": {
       "měna": "real",
       "množství": "1",
       "kód": "BRL",
+      "kurz": "5,605"
+    },
+    "Bulharsko": {
+      "měna": "lev",
+      "množství": "1",
+      "kód": "BGN",
+      "kurz": "13,012"
+    },
+    "Čína": {
+      "měna": "žen-min-pi",
+      "množství": "1",
+      "kód": "CNY",
+      "kurz": "3,261"
+    },
+    "Dánsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "DKK",
+      "kurz": "3,405"
+    },
+    "EMU": {
+      "měna": "euro",
+      "množství": "1",
+      "kód": "EUR",
+      "kurz": "25,450"
+    },
+    "Filipíny": {
+      "měna": "peso",
+      "množství": "100",
+      "kód": "PHP",
+      "kurz": "45,114"
+    },
+    "Hongkong": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "HKD",
+      "kurz": "2,927"
+    },
+    "Chorvatsko": {
+      "měna": "kuna",
+      "množství": "1",
+      "kód": "HRK",
+      "kurz": "3,419"
+    },
+    "Indie": {
+      "měna": "rupie",
+      "množství": "100",
+      "kód": "INR",
+      "kurz": "32,132"
+    },
+    "Indonesie": {
+      "měna": "rupie",
+      "množství": "1000",
+      "kód": "IDR",
+      "kurz": "1,630"
+    },
+    "Island": {
+      "měna": "koruna",
+      "množství": "100",
+      "kód": "ISK",
+      "kurz": "18,631"
+    },
+    "Izrael": {
+      "měna": "nový šekel",
+      "množství": "1",
+      "kód": "ILS",
+      "kurz": "6,526"
+    },
+    "Japonsko": {
+      "měna": "jen",
+      "množství": "100",
+      "kód": "JPY",
+      "kurz": "20,808"
+    },
+    "Jižní Afrika": {
+      "měna": "rand",
+      "množství": "1",
+      "kód": "ZAR",
+      "kurz": "1,581"
+    },
+    "Kanada": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "CAD",
+      "kurz": "17,323"
+    },
+    "Korejská republika": {
+      "měna": "won",
+      "množství": "100",
+      "kód": "KRW",
+      "kurz": "1,959"
+    },
+    "Maďarsko": {
+      "měna": "forint",
+      "množství": "100",
+      "kód": "HUF",
+      "kurz": "7,719"
+    },
+    "Malajsie": {
+      "měna": "ringgit",
+      "množství": "1",
+      "kód": "MYR",
+      "kurz": "5,504"
+    },
+    "Mexiko": {
+      "měna": "peso",
+      "množství": "1",
+      "kód": "MXN",
+      "kurz": "1,204"
+    },
+    "MMF": {
+      "měna": "ZPČ",
+      "množství": "1",
+      "kód": "XDR",
+      "kurz": "31,521"
+    },
+    "Norsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "NOK",
+      "kurz": "2,528"
+    },
+    "Nový Zéland": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "NZD",
+      "kurz": "14,994"
+    },
+    "Polsko": {
+      "měna": "zlotý",
+      "množství": "1",
+      "kód": "PLN",
+      "kurz": "5,975"
+    },
+    "Rumunsko": {
+      "měna": "leu",
+      "množství": "1",
+      "kód": "RON",
+      "kurz": "5,327"
+    },
+    "Rusko": {
+      "měna": "rubl",
+      "množství": "100",
+      "kód": "RUB",
+      "kurz": "36,421"
+    },
+    "Singapur": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "SGD",
+      "kurz": "16,819"
+    },
+    "Švédsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "SEK",
+      "kurz": "2,430"
+    },
+    "Švýcarsko": {
+      "měna": "frank",
+      "množství": "1",
+      "kód": "CHF",
+      "kurz": "23,252"
+    },
+    "Thajsko": {
+      "měna": "baht",
+      "množství": "100",
+      "kód": "THB",
+      "kurz": "75,436"
+    },
+    "Turecko": {
+      "měna": "lira",
+      "množství": "1",
+      "kód": "TRY",
+      "kurz": "3,878"
+    },
+    "USA": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "USD",
+      "kurz": "22,801"
+    },
+    "Velká Británie": {
+      "měna": "libra",
+      "množství": "1",
+      "kód": "GBP",
+      "kurz": "30,033"
+    }
+  },
+  "18.12.2019": {
+    "Austrálie": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "AUD",
+      "kurz": "15,708"
+    },
+    "Brazílie": {
+      "měna": "real",
+      "množství": "1",
+      "kód": "BRL",
+      "kurz": "5,652"
+    },
+    "Bulharsko": {
+      "měna": "lev",
+      "množství": "1",
+      "kód": "BGN",
+      "kurz": "13,033"
+    },
+    "Čína": {
+      "měna": "žen-min-pi",
+      "množství": "1",
+      "kód": "CNY",
+      "kurz": "3,277"
+    },
+    "Dánsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "DKK",
+      "kurz": "3,411"
+    },
+    "EMU": {
+      "měna": "euro",
+      "množství": "1",
+      "kód": "EUR",
+      "kurz": "25,490"
+    },
+    "Filipíny": {
+      "měna": "peso",
+      "množství": "100",
+      "kód": "PHP",
+      "kurz": "45,299"
+    },
+    "Hongkong": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "HKD",
+      "kurz": "2,945"
+    },
+    "Chorvatsko": {
+      "měna": "kuna",
+      "množství": "1",
+      "kód": "HRK",
+      "kurz": "3,422"
+    },
+    "Indie": {
+      "měna": "rupie",
+      "množství": "100",
+      "kód": "INR",
+      "kurz": "32,307"
+    },
+    "Indonesie": {
+      "měna": "rupie",
+      "množství": "1000",
+      "kód": "IDR",
+      "kurz": "1,641"
+    },
+    "Island": {
+      "měna": "koruna",
+      "množství": "100",
+      "kód": "ISK",
+      "kurz": "18,579"
+    },
+    "Izrael": {
+      "měna": "nový šekel",
+      "množství": "1",
+      "kód": "ILS",
+      "kurz": "6,548"
+    },
+    "Japonsko": {
+      "měna": "jen",
+      "množství": "100",
+      "kód": "JPY",
+      "kurz": "20,926"
+    },
+    "Jižní Afrika": {
+      "měna": "rand",
+      "množství": "1",
+      "kód": "ZAR",
+      "kurz": "1,596"
+    },
+    "Kanada": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "CAD",
+      "kurz": "17,431"
+    },
+    "Korejská republika": {
+      "měna": "won",
+      "množství": "100",
+      "kód": "KRW",
+      "kurz": "1,966"
+    },
+    "Maďarsko": {
+      "měna": "forint",
+      "množství": "100",
+      "kód": "HUF",
+      "kurz": "7,707"
+    },
+    "Malajsie": {
+      "měna": "ringgit",
+      "množství": "1",
+      "kód": "MYR",
       "kurz": "5,541"
     },
-    "Bulharsko": {
-      "měna": "lev",
-      "množství": "1",
-      "kód": "BGN",
-      "kurz": "12,921"
-    },
-    "Čína": {
-      "měna": "žen-min-pi",
-      "množství": "1",
-      "kód": "CNY",
-      "kurz": "3,259"
-    },
-    "Dánsko": {
-      "měna": "koruna",
-      "množství": "1",
-      "kód": "DKK",
-      "kurz": "3,382"
-    },
-    "EMU": {
-      "měna": "euro",
-      "množství": "1",
-      "kód": "EUR",
-      "kurz": "25,275"
-    },
-    "Filipíny": {
-      "měna": "peso",
-      "množství": "100",
-      "kód": "PHP",
-      "kurz": "44,477"
-    },
-    "Hongkong": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "HKD",
-      "kurz": "2,911"
-    },
-    "Chorvatsko": {
-      "měna": "kuna",
-      "množství": "1",
-      "kód": "HRK",
-      "kurz": "3,393"
-    },
-    "Indie": {
-      "měna": "rupie",
-      "množství": "100",
-      "kód": "INR",
-      "kurz": "31,489"
-    },
-    "Indonesie": {
-      "měna": "rupie",
-      "množství": "1000",
-      "kód": "IDR",
-      "kurz": "1,631"
-    },
-    "Island": {
-      "měna": "koruna",
-      "množství": "100",
-      "kód": "ISK",
-      "kurz": "18,409"
-    },
-    "Izrael": {
-      "měna": "nový šekel",
-      "množství": "1",
-      "kód": "ILS",
-      "kurz": "6,527"
-    },
-    "Japonsko": {
-      "měna": "jen",
-      "množství": "100",
-      "kód": "JPY",
-      "kurz": "20,864"
-    },
-    "Jižní Afrika": {
-      "měna": "rand",
-      "množství": "1",
-      "kód": "ZAR",
-      "kurz": "1,583"
-    },
-    "Kanada": {
-      "měna": "dolar",
-      "množství": "1",
-      "kód": "CAD",
-      "kurz": "17,408"
-    },
-    "Korejská republika": {
-      "měna": "won",
-      "množství": "100",
-      "kód": "KRW",
-      "kurz": "1,941"
-    },
-    "Maďarsko": {
-      "měna": "forint",
-      "množství": "100",
-      "kód": "HUF",
-      "kurz": "7,630"
-    },
-    "Malajsie": {
-      "měna": "ringgit",
-      "množství": "1",
-      "kód": "MYR",
-      "kurz": "5,528"
-    },
     "Mexiko": {
       "měna": "peso",
       "množství": "1",
       "kód": "MXN",
-      "kurz": "1,199"
+      "kurz": "1,208"
     },
     "MMF": {
       "měna": "ZPČ",
       "množství": "1",
       "kód": "XDR",
-      "kurz": "31,336"
+      "kurz": "31,686"
     },
     "Norsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "NOK",
-      "kurz": "2,564"
+      "kurz": "2,540"
     },
     "Nový Zéland": {
       "měna": "dolar",
       "množství": "1",
       "kód": "NZD",
-      "kurz": "15,012"
+      "kurz": "15,065"
     },
     "Polsko": {
       "měna": "zlotý",
       "množství": "1",
       "kód": "PLN",
-      "kurz": "5,954"
+      "kurz": "5,969"
     },
     "Rumunsko": {
       "měna": "leu",
       "množství": "1",
       "kód": "RON",
-      "kurz": "5,289"
+      "kurz": "5,337"
     },
     "Rusko": {
       "měna": "rubl",
       "množství": "100",
       "kód": "RUB",
-      "kurz": "36,507"
+      "kurz": "36,662"
     },
     "Singapur": {
       "měna": "dolar",
       "množství": "1",
       "kód": "SGD",
-      "kurz": "16,761"
+      "kurz": "16,909"
     },
     "Švédsko": {
       "měna": "koruna",
       "množství": "1",
       "kód": "SEK",
-      "kurz": "2,397"
+      "kurz": "2,440"
     },
     "Švýcarsko": {
       "měna": "frank",
       "množství": "1",
       "kód": "CHF",
-      "kurz": "23,299"
+      "kurz": "23,359"
     },
     "Thajsko": {
       "měna": "baht",
       "množství": "100",
       "kód": "THB",
-      "kurz": "74,726"
+      "kurz": "75,837"
     },
     "Turecko": {
       "měna": "lira",
       "množství": "1",
       "kód": "TRY",
-      "kurz": "3,786"
+      "kurz": "3,878"
     },
     "USA": {
       "měna": "dolar",
       "množství": "1",
       "kód": "USD",
-      "kurz": "22,626"
+      "kurz": "22,933"
     },
     "Velká Británie": {
       "měna": "libra",
       "množství": "1",
       "kód": "GBP",
-      "kurz": "29,675"
+      "kurz": "29,967"
+    }
+  },
+  "19.12.2019": {
+    "Austrálie": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "AUD",
+      "kurz": "15,736"
+    },
+    "Brazílie": {
+      "měna": "real",
+      "množství": "1",
+      "kód": "BRL",
+      "kurz": "5,643"
+    },
+    "Bulharsko": {
+      "měna": "lev",
+      "množství": "1",
+      "kód": "BGN",
+      "kurz": "13,025"
+    },
+    "Čína": {
+      "měna": "žen-min-pi",
+      "množství": "1",
+      "kód": "CNY",
+      "kurz": "3,269"
+    },
+    "Dánsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "DKK",
+      "kurz": "3,409"
+    },
+    "EMU": {
+      "měna": "euro",
+      "množství": "1",
+      "kód": "EUR",
+      "kurz": "25,475"
+    },
+    "Filipíny": {
+      "měna": "peso",
+      "množství": "100",
+      "kód": "PHP",
+      "kurz": "45,278"
+    },
+    "Hongkong": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "HKD",
+      "kurz": "2,939"
+    },
+    "Chorvatsko": {
+      "měna": "kuna",
+      "množství": "1",
+      "kód": "HRK",
+      "kurz": "3,424"
+    },
+    "Indie": {
+      "měna": "rupie",
+      "množství": "100",
+      "kód": "INR",
+      "kurz": "32,235"
+    },
+    "Indonesie": {
+      "měna": "rupie",
+      "množství": "1000",
+      "kód": "IDR",
+      "kurz": "1,639"
+    },
+    "Island": {
+      "měna": "koruna",
+      "množství": "100",
+      "kód": "ISK",
+      "kurz": "18,568"
+    },
+    "Izrael": {
+      "měna": "nový šekel",
+      "množství": "1",
+      "kód": "ILS",
+      "kurz": "6,561"
+    },
+    "Japonsko": {
+      "měna": "jen",
+      "množství": "100",
+      "kód": "JPY",
+      "kurz": "20,928"
+    },
+    "Jižní Afrika": {
+      "měna": "rand",
+      "množství": "1",
+      "kód": "ZAR",
+      "kurz": "1,600"
+    },
+    "Kanada": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "CAD",
+      "kurz": "17,465"
+    },
+    "Korejská republika": {
+      "měna": "won",
+      "množství": "100",
+      "kód": "KRW",
+      "kurz": "1,965"
+    },
+    "Maďarsko": {
+      "měna": "forint",
+      "množství": "100",
+      "kód": "HUF",
+      "kurz": "7,708"
+    },
+    "Malajsie": {
+      "měna": "ringgit",
+      "množství": "1",
+      "kód": "MYR",
+      "kurz": "5,532"
+    },
+    "Mexiko": {
+      "měna": "peso",
+      "množství": "1",
+      "kód": "MXN",
+      "kurz": "1,206"
+    },
+    "MMF": {
+      "měna": "ZPČ",
+      "množství": "1",
+      "kód": "XDR",
+      "kurz": "31,611"
+    },
+    "Norsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "NOK",
+      "kurz": "2,553"
+    },
+    "Nový Zéland": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "NZD",
+      "kurz": "15,075"
+    },
+    "Polsko": {
+      "měna": "zlotý",
+      "množství": "1",
+      "kód": "PLN",
+      "kurz": "5,978"
+    },
+    "Rumunsko": {
+      "měna": "leu",
+      "množství": "1",
+      "kód": "RON",
+      "kurz": "5,338"
+    },
+    "Rusko": {
+      "měna": "rubl",
+      "množství": "100",
+      "kód": "RUB",
+      "kurz": "36,676"
+    },
+    "Singapur": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "SGD",
+      "kurz": "16,900"
+    },
+    "Švédsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "SEK",
+      "kurz": "2,431"
+    },
+    "Švýcarsko": {
+      "měna": "frank",
+      "množství": "1",
+      "kód": "CHF",
+      "kurz": "23,375"
+    },
+    "Thajsko": {
+      "měna": "baht",
+      "množství": "100",
+      "kód": "THB",
+      "kurz": "75,904"
+    },
+    "Turecko": {
+      "měna": "lira",
+      "množství": "1",
+      "kód": "TRY",
+      "kurz": "3,859"
+    },
+    "USA": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "USD",
+      "kurz": "22,915"
+    },
+    "Velká Británie": {
+      "měna": "libra",
+      "množství": "1",
+      "kód": "GBP",
+      "kurz": "29,943"
+    }
+  },
+  "20.12.2019": {
+    "Austrálie": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "AUD",
+      "kurz": "15,820"
+    },
+    "Brazílie": {
+      "měna": "real",
+      "množství": "1",
+      "kód": "BRL",
+      "kurz": "5,634"
+    },
+    "Bulharsko": {
+      "měna": "lev",
+      "množství": "1",
+      "kód": "BGN",
+      "kurz": "13,012"
+    },
+    "Čína": {
+      "měna": "žen-min-pi",
+      "množství": "1",
+      "kód": "CNY",
+      "kurz": "3,273"
+    },
+    "Dánsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "DKK",
+      "kurz": "3,406"
+    },
+    "EMU": {
+      "měna": "euro",
+      "množství": "1",
+      "kód": "EUR",
+      "kurz": "25,445"
+    },
+    "Filipíny": {
+      "měna": "peso",
+      "množství": "100",
+      "kód": "PHP",
+      "kurz": "45,223"
+    },
+    "Hongkong": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "HKD",
+      "kurz": "2,942"
+    },
+    "Chorvatsko": {
+      "měna": "kuna",
+      "množství": "1",
+      "kód": "HRK",
+      "kurz": "3,421"
+    },
+    "Indie": {
+      "měna": "rupie",
+      "množství": "100",
+      "kód": "INR",
+      "kurz": "32,218"
+    },
+    "Indonesie": {
+      "měna": "rupie",
+      "množství": "1000",
+      "kód": "IDR",
+      "kurz": "1,641"
+    },
+    "Island": {
+      "měna": "koruna",
+      "množství": "100",
+      "kód": "ISK",
+      "kurz": "18,655"
+    },
+    "Izrael": {
+      "měna": "nový šekel",
+      "množství": "1",
+      "kód": "ILS",
+      "kurz": "6,597"
+    },
+    "Japonsko": {
+      "měna": "jen",
+      "množství": "100",
+      "kód": "JPY",
+      "kurz": "20,984"
+    },
+    "Jižní Afrika": {
+      "měna": "rand",
+      "množství": "1",
+      "kód": "ZAR",
+      "kurz": "1,611"
+    },
+    "Kanada": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "CAD",
+      "kurz": "17,453"
+    },
+    "Korejská republika": {
+      "měna": "won",
+      "množství": "100",
+      "kód": "KRW",
+      "kurz": "1,978"
+    },
+    "Maďarsko": {
+      "měna": "forint",
+      "množství": "100",
+      "kód": "HUF",
+      "kurz": "7,699"
+    },
+    "Malajsie": {
+      "měna": "ringgit",
+      "množství": "1",
+      "kód": "MYR",
+      "kurz": "5,540"
+    },
+    "Mexiko": {
+      "měna": "peso",
+      "množství": "1",
+      "kód": "MXN",
+      "kurz": "1,210"
+    },
+    "MMF": {
+      "měna": "ZPČ",
+      "množství": "1",
+      "kód": "XDR",
+      "kurz": "31,639"
+    },
+    "Norsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "NOK",
+      "kurz": "2,559"
+    },
+    "Nový Zéland": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "NZD",
+      "kurz": "15,138"
+    },
+    "Polsko": {
+      "měna": "zlotý",
+      "množství": "1",
+      "kód": "PLN",
+      "kurz": "5,973"
+    },
+    "Rumunsko": {
+      "měna": "leu",
+      "množství": "1",
+      "kód": "RON",
+      "kurz": "5,334"
+    },
+    "Rusko": {
+      "měna": "rubl",
+      "množství": "100",
+      "kód": "RUB",
+      "kurz": "36,900"
+    },
+    "Singapur": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "SGD",
+      "kurz": "16,927"
+    },
+    "Švédsko": {
+      "měna": "koruna",
+      "množství": "1",
+      "kód": "SEK",
+      "kurz": "2,438"
+    },
+    "Švýcarsko": {
+      "měna": "frank",
+      "množství": "1",
+      "kód": "CHF",
+      "kurz": "23,388"
+    },
+    "Thajsko": {
+      "měna": "baht",
+      "množství": "100",
+      "kód": "THB",
+      "kurz": "76,000"
+    },
+    "Turecko": {
+      "měna": "lira",
+      "množství": "1",
+      "kód": "TRY",
+      "kurz": "3,869"
+    },
+    "USA": {
+      "měna": "dolar",
+      "množství": "1",
+      "kód": "USD",
+      "kurz": "22,937"
+    },
+    "Velká Británie": {
+      "měna": "libra",
+      "množství": "1",
+      "kód": "GBP",
+      "kurz": "29,896"
     }
   }
 }
