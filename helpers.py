@@ -16,13 +16,18 @@ def convert_to_datetime(date_: str):
     return dt.strptime(date_, "%d.%m.%Y")
 
 
-def find_nearest_date(date_: str, dates: list):
+def find_nearest_date(date_: str, dates: list, downwards: bool):
 
-    try:
-        assert_that(date_, is_in(dates))
-    except AssertionError as e:
-        d = dt.strptime(date_, "%d.%m.%Y")
-        # TODO
+    if date_ not in dates:
+        date_ = dt.strptime(date_, "%d.%m.%Y")
+        if not downwards:
+            date_ = date_ + timedelta(days=1)
+        else:
+            date_ = date_.strftime("%d.%m.%Y")
+
+        return find_nearest_date(date_, dates, downwards)
+    else:
+        return date_
 
 
 def get(data: object, country: str, from_: str, to: str):
@@ -30,8 +35,10 @@ def get(data: object, country: str, from_: str, to: str):
     p = PrettyPrinter(indent=2)
     output = {}
     dates = list(data.keys())
-    assert_that(from_, is_in(dates))
-    assert_that(to, is_in(dates))
+    # tries to find nearest valid date with data upwards
+    from_ = find_nearest_date(from_, dates, False)
+    # tries to find nearest valid date with data downwards
+    to = find_nearest_date(to, dates, True)
     countries = list(data[from_].keys())
     assert_that(country, is_in(countries))
 
@@ -49,10 +56,10 @@ def get(data: object, country: str, from_: str, to: str):
                 output[country][date] = {}
                 output[country][date] = cdata[country]
     # debug
-    p.pprint(output)
+    # p.pprint(output)
     return output
 
 
 if __name__ == "__main__":
     data = load_data("./data.json")
-    result = get(data, "EMU", "02.01.2020", "22.01.2020")
+    result = get(data, "EMU", "01.12.2019", "31.01.2020")
