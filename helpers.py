@@ -20,10 +20,13 @@ def find_nearest_date(date_: str, dates: list, downwards: bool):
 
     if date_ not in dates:
         date_ = dt.strptime(date_, "%d.%m.%Y")
+
         if not downwards:
             date_ = date_ + timedelta(days=1)
         else:
-            date_ = date_.strftime("%d.%m.%Y")
+            date_ = date_ - timedelta(days=1)
+
+        date_ = date_.strftime("%d.%m.%Y")
 
         return find_nearest_date(date_, dates, downwards)
     else:
