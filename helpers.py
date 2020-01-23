@@ -1,5 +1,6 @@
 import json
 from datetime import datetime as dt
+from datetime import timedelta
 from pprint import PrettyPrinter
 
 from hamcrest import assert_that, is_in
@@ -13,6 +14,15 @@ def load_data(filepath: str):
 
 def convert_to_datetime(date_: str):
     return dt.strptime(date_, "%d.%m.%Y")
+
+
+def find_nearest_date(date_: str, dates: list):
+
+    try:
+        assert_that(date_, is_in(dates))
+    except AssertionError as e:
+        d = dt.strptime(date_, "%d.%m.%Y")
+        # TODO
 
 
 def get(data: object, country: str, from_: str, to: str):
