@@ -35,7 +35,7 @@ def find_nearest_date(date_: str, dates: list, downwards: bool):
 
 def get(data: object, country: str, from_: str, to: str):
     # debug
-    p = PrettyPrinter(indent=2)
+    # p = PrettyPrinter(indent=2)
     output = {}
     dates = list(data.keys())
     # tries to find nearest valid date with data upwards
