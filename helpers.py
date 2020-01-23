@@ -17,7 +17,7 @@ def convert_to_datetime(date_: str):
 
 def get(data: object, country: str, from_: str, to: str):
     # debug
-    # p = PrettyPrinter(indent=2)
+    p = PrettyPrinter(indent=2)
     output = {}
     dates = list(data.keys())
     assert_that(from_, is_in(dates))
@@ -39,10 +39,10 @@ def get(data: object, country: str, from_: str, to: str):
                 output[country][date] = {}
                 output[country][date] = cdata[country]
     # debug
-    # print(output)
+    p.pprint(output)
     return output
 
 
 if __name__ == "__main__":
     data = load_data("./data.json")
-    result = get(data, "Austrálie", "02.12.2019", "14.01.2020")
+    result = get(data, "EMU", "02.01.2020", "22.01.2020")
